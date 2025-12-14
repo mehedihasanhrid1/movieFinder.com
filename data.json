@@ -3,14 +3,14 @@
         "id": 1,
         "Title": "Inception",
         "Genre": "Sci-Fi",
-        "Poster": "https://via.placeholder.com/300x450?text=Inception",
+        "Poster": "https://i.ibb.co.com/HD6c8cnG/inception.jpg",
         "description": "A skilled thief enters dreams to steal secrets and plant ideas, blurring reality and imagination."
     },
     {
         "id": 2,
         "Title": "The Dark Knight",
         "Genre": "Action",
-        "Poster": "https://via.placeholder.com/300x450?text=Dark+Knight",
+        "Poster": "https://i.ibb.co.com/KpHf8JFC/thedarkknight.jpg",
         "description": "Batman faces his greatest psychological and moral challenge against the Joker in Gotham City."
     },
     {
