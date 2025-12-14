@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieFinder.com – Find Your Best Choice</title>
+
+    <link rel="shortcut icon" href="image/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/2c2c3a511e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar">
+        <div class="nav-left">
+            <i class="fa-solid fa-film brand-icon"></i>
+            <span class="brand-name">MovieFinder</span>
+        </div>
+
+        <ul class="nav-links" id="navLinks">
+            <li><i class="fa-solid fa-house"></i><span>Home</span></li>
+            <li><i class="fa-solid fa-clapperboard"></i><span>Movies</span></li>
+            <li><i class="fa-solid fa-layer-group"></i><span>Genres</span></li>
+            <li><i class="fa-solid fa-envelope"></i><span>Contact</span></li>
+        </ul>
+
+        <div class="nav-right">
+            <i class="fa-solid fa-bars menu-toggle" id="menuToggle"></i>
+        </div>
+    </nav>
+
+    <!-- ================= HERO / SEARCH ================= -->
+    <header class="hero">
+        <h1>Discover Movies You’ll Love</h1>
+        <p>Search by movie title or genre to get curated results instantly</p>
+
+        <div class="search-wrapper">
+            <input type="text" id="searchInput" placeholder="Search movies or genres...">
+
+            <button id="searchBtn" title="Search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+
+            <button id="clearBtn" title="Clear">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- ================= FEATURED MOVIES ================= -->
+    <section class="section-title">
+        <h2>
+            <i class="fa-solid fa-star"></i>
+            Featured Films
+        </h2>
+    </section>
+
+    <section class="movie-container" id="movieContainer">
+        <!-- Movie cards injected via script.js -->
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>
+                <i class="fa-solid fa-copyright"></i>
+                2025 MovieFinder.com — All Rights Reserved
+            </p>
+            <p class="footer-sub">
+                Built for learning, demonstration, and scalable UI design
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
